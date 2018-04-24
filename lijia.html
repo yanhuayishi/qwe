@@ -22,7 +22,7 @@
         height:400px;
         transform: rotateY(0deg) rotateZ(0deg)  translateZ(-90px);
         transform-style: preserve-3d;
-        transition: transform 90s linear;
+        transition: transform 200s linear;
 
     }
     #d1{
@@ -78,7 +78,7 @@
             x+=600;
             warp.style.webkitTransform = "-webkit-rotateY("+z+"deg) rotateZ("+x+"deg)  translateZ(-90px)";
             warp.style.transform = "rotateY("+z+"deg) rotateZ("+x+"deg)  translateZ(-90px)";
-        setTimeout(go,4000)
+        setTimeout(go,8000)
         }
         go();
     }
